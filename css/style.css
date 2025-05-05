@@ -21,6 +21,7 @@ a{
     width: 100%;
     position: relative;
     z-index: 0;
+    padding-top: 100px;
 }
 
 .project-slider{
@@ -32,7 +33,7 @@ a{
     margin: auto;
     position: relative;
     z-index: 1;
-    margin-top: -150px;
+    margin-top: -80pxpx;
 }
 
 .project-card{
@@ -43,6 +44,21 @@ a{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
     overflow: hidden;
     padding: 20px;
+}
+
+.project-card middle{
+    width: 428px;
+    height: 428px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(10, 34, 244, 0.2);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.project-card.middle{
+    margin-top: -50px;
 }
 
 .projects h2{
@@ -65,9 +81,51 @@ a{
     margin-left: 1519px;
     margin-top: 40px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: bold; 
     color: #171717;
     text-transform: uppercase;
     text-align: left;
      
+}
+
+.project-card{
+    position: relative;
+}
+
+.card-text{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color: #171717;
+    width: auto;
+}
+
+.card-text{
+    bottom: 20px;
+}
+
+.cardtext-middle{
+    position: absolute;
+    bottom: 29px;
+    left: 45px;
+    width: 346px;
+    height: 68px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #171717;
+    
+
+}
+
+.project-card.middle{
+    position: relative;
 }
