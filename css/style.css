@@ -1,0 +1,131 @@
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+.projects{
+    background-color: #0077e6;
+    height: 308px;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    padding-top: 100px;
+}
+
+.project-slider{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1920px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    margin-top: -80pxpx;
+}
+
+.project-card{
+    width: 463px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.project-card middle{
+    width: 428px;
+    height: 428px;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(10, 34, 244, 0.2);
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.project-card.middle{
+    margin-top: -50px;
+}
+
+.projects h2{
+    width: 184px;
+    height: 38px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 240px;
+    margin-bottom: 40px;
+}
+
+.view-all{
+    display: block;
+    width: 145px;
+    height: 22px;
+    margin-left: 1519px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold; 
+    color: #171717;
+    text-transform: uppercase;
+    text-align: left;
+     
+}
+
+.project-card{
+    position: relative;
+}
+
+.card-text{
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    color: #171717;
+    width: auto;
+}
+
+.card-text{
+    bottom: 20px;
+}
+
+.cardtext-middle{
+    position: absolute;
+    bottom: 29px;
+    left: 45px;
+    width: 346px;
+    height: 68px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    padding: 12px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: #171717;
+    
+
+}
+
+.project-card.middle{
+    position: relative;
+}
